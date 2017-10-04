@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Sarah Randles Deliverable 1 Front End Bootcamp-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sarah Randles</title>
+
+	<meta name="Sarah Randles" content="Sarah Randles" />
+	<meta name="Deliverable 1" content="" />
+
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" />
+
+</head>
+<body>
+
+	<div id="page">
+		<div id="logo">
+			<h1>Contact</h1>
+		</div>
+
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+
+    <div id="form-main">
+      <div id="form-div">
+        <form class="form" id="form1">
+
+          <p class="name">
+            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+          </p>
+
+          <p class="email">
+            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+          </p>
+
+          <p class="text">
+            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Contact Me!"></textarea>
+          </p>
+
+
+          <div class="submit">
+            <input type="submit" value="SEND" id="button-teal"/>
+            <div class="ease"></div>
+          </div>
+        </form>
+      </div>

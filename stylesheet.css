@@ -1,0 +1,297 @@
+<!-- Sarah Randles Deliverable 1 Front End Bootcamp-->
+
+<style>
+p{ line-height: 1em;
+  text-align: center;
+}
+h1, h2, h3, h4{
+    color: teal;
+	font-weight: normal;
+	line-height: 2.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color: Teal;
+	text-decoration: none;
+
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+body{
+    font-family: Arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+}
+
+#page{
+  margin: 20px;
+}
+
+#navi{
+  text-align:center;
+}
+
+#logo{
+    width: 35%;
+    margin: 0 auto;
+    font-family: georgia;
+    /* display: inline-block; */
+    text-align: center;
+}
+
+#nav{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    /* display: inline-block; */
+    /* text-align: right; */
+    /* float: right; */
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+      padding: 0px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: teal;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+  text-align: center;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+#picbox{
+  margin: 50px;
+  margin-top: 50px;
+  padding: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  background-color: teal;
+}
+
+#pics{
+  flex:auto;
+  flex-flow: row;
+  border-top-right-radius: 30px;
+  box-shadow: 20px;
+}
+
+ol {
+    list-style-position: inside;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+#instaicon{
+  margin: 30px;
+  padding: auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+
+.box{
+  text-align: center;
+}
+
+
+#content{
+padding-top: 20px;
+padding-bottom: 30px;
+text-align: center;
+}
+
+<!-- This is the Contact Form -->
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+}
+
+#feedback-page{
+	text-align:center;
+  flex:auto;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float:left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  text-align: center;
+
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+
+#name{
+
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 700%;
+    height: 450px;
+    line-height: 250%;
+    resize:vertical;
+    flex-wrap: wrap;
+
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.submit:hover {
+	color: #3498db;
+}
+
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
